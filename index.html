@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ritesh - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="./assets/favicon.png">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Ritesh's Portfolio</div>
+            <div class="right">
+                <ul class="navigation">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./achievement.html">Achievements</a></li>
+                    <li><a href="./project.html">Projects</a></li>
+                    <li><a href="./contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="name">Ritesh Kushwaha</span>
+
+                Aspiring tech enthusiast exploring <br>
+                <span id="element"></span> <br>with passion.
+
+                <div class="buttons"><button class="btn"><a href="./assets/Resume-Ritesh.pdf"
+                            download="Resume-Ritesh">Download Resume</a> </button></div>
+            </div>
+            <div class="rightSection">
+                <img src="./assets/img1.png" />
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img src="./assets/c1.png" class="img-top">
+                    <div class="vtitle">Innovative Idea Inspire Award Manak (2019-20)</div>
+                    <div class="desc">I had the opportunity to participate in the Inspire Award Innovative Idea project,
+                        where I explored the intersection of technology and innovation. This experience ignited my
+                        interest in technology </div>
+                </div>
+                <div class="vertical">
+                    <img src="./assets/c4.png" class="img-top">
+                    <div class="vtitle">Linux based Operating Systems (2019-21)</div>
+                    <div class="desc">Until the 2021 lockdown, I extensively worked with Linux
+                        operating systems, deepening my understanding of cybersecurity. This
+                        hands-on experience honed my technical skills and fueled my passion for safeguarding digital
+                        environments.</div>
+                </div>
+                <div class="vertical">
+                    <img src="./assets/c2.png" class="img-top">
+                    <div class="vtitle">Python Developer (2020-22)</div>
+                    <div class="desc">During my school curriculum, I immersed myself in Python programming, creating
+                        projects ranging from ticket booking applications to games. Through these projects, I explored
+                        various libraries and honed my skills in Python programming.</div>
+                </div>
+                <div class="vertical">
+                    <img src="./assets/c3.png" class="img-top">
+                    <div class="vtitle">Web Developer (2023-)</div>
+                    <div class="desc">Currently in my first year of college, I am dedicated to mastering web
+                        development. Embarking on this journey, I am committed to learning the intricacies of web
+                        development and expanding my skills in this dynamic field.</div>
+                </div>
+            </div>
+        </section>
+
+
+        <hr>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Ritesh's Developer
+                    <br>Portfolio
+                </h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li><img src="./assets/github.png"><a
+                            href="https://github.com/riteshkushwaha497">@riteshkushwaha497</a></li>
+                    <li><img src="./assets/linkedin.png"><a href="https://www.linkedin.com/in/cyberrk">@cyberrk</a></li>
+                    <li><img src="./assets/gmail.png"><a
+                            href="mailto:riteshkushwaha497@gmail.com">@riteshkushwaha497</a></li>
+                    <li><img src="./assets/linktree.png"><a href="https://linktr.ee/cyberrk">@cyberrk</a></li>
+                    <li><img src="./assets/instagram.png"><a href="https://instagram.com/cyberrk_">@cyberk_</a></li>
+                </ul>
+            </div>
+            <div class="copyright">
+                Copyright &#169; Ritesh's portfolio | All Rights Reserved
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Coding', 'Engineering', ' Cyber Security', '<i> Web Development</i>'],
+            typeSpeed: 50,
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>

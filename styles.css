@@ -1,0 +1,404 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 85px;
+    background-color: rgba(8, 8, 51, 0.988);
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(153, 153, 226);
+    font-size: 1.02rem;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0 0 20px;
+    color: white;
+    height: 40%;
+}
+
+.firstSection>div {
+    width: 40%;
+}
+
+.leftSection {
+    font-size: 3rem;
+}
+
+.rightSection img {
+    width: 70%;
+    margin-left: 3rem;
+}
+
+.name {
+    color: rgb(57, 8, 103);
+}
+
+.webd {
+    color: darkblue;
+}
+
+hr {
+    border: 0;
+    background-color: rgba(217, 196, 243, 0.411);
+    height: 0.80px;
+    margin-top: 7%;
+}
+
+h1 {
+    color: azure;
+}
+
+#menu {
+    width: 35px;
+    height: 30px;
+    margin: 30px 0 20px 20px;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.bar {
+    height: 5px;
+    width: 100%;
+    background-color: #fff;
+    display: block;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+#bar1 {
+    transform: translateY(-4px);
+}
+
+#bar3 {
+    transform: translateY(-4px);
+}
+
+.navigation {
+    padding: 0;
+    margin: 0 20px;
+    color: #fff;
+
+}
+
+.navigation li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.na li a:hover {
+    border: 1px solid #fff;
+}
+
+.navigation li {
+    list-style: none;
+    padding: 16px 0;
+}
+
+.secondSection {
+    height: 80vh;
+    margin: auto;
+    max-width: 80vw;
+}
+
+.text-gray {
+    color: rgb(175, 170, 170);
+}
+
+.box {
+    background: white;
+    width: 77vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.vertical {
+    height: 93px;
+    width: 1px;
+    background-color: #fff;
+    margin: 0 130px;
+}
+
+
+.img-top {
+    width: 40px;
+    position: relative;
+    top: -45px;
+    left: -17px;
+}
+
+.vtitle {
+    color: #fff;
+    position: relative;
+    top: 75px;
+    width: 150px;
+
+}
+
+.desc {
+    color: gray;
+    position: relative;
+    top: 120px;
+    width: 200px;
+    font-size: 12px;
+}
+
+footer {
+    background-color: #0e0e1a;
+}
+
+.footer {
+    padding: 23px 123px;
+    color: #f3e8e8;
+}
+
+.footer-second ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+}
+
+.footer-second img {
+    margin-left: 50px;
+    position: relative;
+    top: 5px;
+    width: 30px;
+    justify-content: space-evenly;
+}
+
+.footer-second a {
+    position: relative;
+    color: rgb(77, 77, 231);
+    font-size: 15px;
+}
+
+.copyright {
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+}
+
+.btn {
+    padding: 12px;
+    background-color: rgba(8, 18, 93, 0.778);
+    color: rgba(255, 255, 255, 0.901);
+    border: 1.5px solid white;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.buttons {
+    padding: 30px 0;
+}
+
+.buttons a {
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: rgba(46, 58, 154, 0.778);
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    opacity: 1;
+}
+
+/* ********************** contact form******************* */
+
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+label {
+    color: #fff;
+}
+
+h2 {
+    color: aliceblue;
+}
+
+/* ****************************about page********************* */
+
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #fff;
+}
+
+.about-section {
+    color: white;
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.about-container>h3 {
+    color: #fff;
+}
+
+.about-container>p {
+    color: #fff;
+}
+
+.about-container>h2 {
+    text-align: center;
+}
+
+
+/* *********************achievements page ******************/
+
+.achievements-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.certificates-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.certificate-item {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.certificate-img {
+    max-width: 300px;
+    height: auto;
+}
+
+.download-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.download-button:hover {
+    background-color: #0056b3;
+}
+
+/************************* project page***************************** */
+
+.project-container{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.project-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-links a {
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.project-links a:hover {
+    background-color: #0056b3;
+}
+
+.project-screenshots {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.project-screenshot {
+    max-width: 400px;
+    height: auto;
+}
